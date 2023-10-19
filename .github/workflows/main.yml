@@ -19,7 +19,7 @@ jobs:
         python-version: 3.x
 
     - name: Install Dependencies
-      run: pip install -r python
+      run: pip install -r PyYAML
 
     - name: Run Python App
       run: python app.py
